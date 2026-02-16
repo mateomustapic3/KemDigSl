@@ -71,6 +71,7 @@ KemDigSl_Setup-5.bin
 KemDigSl_Setup-6.bin  
 
 ---
+<img width="1418" height="796" alt="image" src="https://github.com/user-attachments/assets/e911e992-163d-44d5-95c5-d89bd6fded30" />
 
 ### Step 3 – Place Together
 
