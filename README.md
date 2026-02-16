@@ -4,7 +4,6 @@ AI-powered desktop aplikacija za obradu i restauraciju slika
 WinForms (C#) + Python AI moduli
 
 <img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/a058ccb7-debb-41b4-b36d-01fc68a70d44" />
-<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/a058ccb7-debb-41b4-b36d-01fc68a70d44" />
 
 
 ---
@@ -28,6 +27,7 @@ Uz to podrzane su i klasicne transformacije:
 brightness • contrast • saturation • sharpness • grayscale • sepia
 
 ---
+<img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/96d28301-3df9-45ce-a331-f997fe6f9657" />
 
 ## System Requirements
 
@@ -86,6 +86,8 @@ KemDigSl_Setup-6.bin
 
 Ne mijenjati nazive  
 Ne pokretati instalaciju bez svih BIN datoteka
+
+<img width="672" height="268" alt="image" src="https://github.com/user-attachments/assets/19cdaba8-ceb6-45bb-bfbb-db3eb3085568" />
 
 ---
 
