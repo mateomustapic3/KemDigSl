@@ -3,6 +3,10 @@
 AI-powered desktop aplikacija za obradu i restauraciju slika  
 WinForms (C#) + Python AI moduli
 
+<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/a058ccb7-debb-41b4-b36d-01fc68a70d44" />
+<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/a058ccb7-debb-41b4-b36d-01fc68a70d44" />
+
+
 ---
 
 ## AI Moduli
