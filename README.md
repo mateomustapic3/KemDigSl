@@ -1,4 +1,9 @@
+
+
 # KemDigSl – Kemijanje Digitalnih Slika
+
+Google Drive poveznica za ISO image installera: 
+https://drive.google.com/file/d/1mIZnpeIHp414ekltMl3ieLjrHxs7LIlj/view?usp=sharing
 
 AI-powered desktop aplikacija za obradu i restauraciju slika  
 WinForms (C#) + Python AI moduli
