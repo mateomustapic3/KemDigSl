@@ -8,7 +8,8 @@ https://drive.google.com/file/d/1YgMGJ44xal9cIsaVNLkClTRlrhCg1mzf/view?usp=shari
 AI-powered desktop aplikacija za obradu i restauraciju slika  
 WinForms (C#) + Python AI moduli
 
-<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/a058ccb7-debb-41b4-b36d-01fc68a70d44" />
+<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/86e6221d-3759-4b10-ab99-26c09489e756" />
+
 
 
 ---
@@ -68,27 +69,25 @@ Releases → Latest Release → Assets
 
 Preuzmi:
 
-KemDigSl_Setup-1.bin  
-KemDigSl_Setup-2.bin  
-KemDigSl_Setup-3.bin  
-KemDigSl_Setup-4.bin  
-KemDigSl_Setup-5.bin  
-KemDigSl_Setup-6.bin  
+KemDigSl_Setup_Fast-1.bin  
+KemDigSl_Setup_Fast-2.bin  
+KemDigSl_Setup_Fast-3.bin  
+KemDigSl_Setup_Fast-4.bin  
 
 ---
-<img width="1418" height="796" alt="image" src="https://github.com/user-attachments/assets/e911e992-163d-44d5-95c5-d89bd6fded30" />
+<img width="807" height="207" alt="image" src="https://github.com/user-attachments/assets/bc9f2993-4860-4f7b-901e-3df817c25e3a" />
+
 
 ### Step 3 – Place Together
 
 Sve datoteke moraju biti u ISTOM folderu:
 
 KemDigSl_Setup.exe  
-KemDigSl_Setup-1.bin  
-KemDigSl_Setup-2.bin  
-KemDigSl_Setup-3.bin  
-KemDigSl_Setup-4.bin  
-KemDigSl_Setup-5.bin  
-KemDigSl_Setup-6.bin  
+KemDigSl_Setup_Fast-1.bin  
+KemDigSl_Setup_Fast-2.bin  
+KemDigSl_Setup_Fast-3.bin  
+KemDigSl_Setup_Fast-4.bin  
+
 
 Ne mijenjati nazive  
 Ne pokretati instalaciju bez svih BIN datoteka
