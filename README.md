@@ -75,7 +75,8 @@ KemDigSl_Setup_Fast-3.bin
 KemDigSl_Setup_Fast-4.bin  
 
 ---
-<img width="807" height="207" alt="image" src="https://github.com/user-attachments/assets/bc9f2993-4860-4f7b-901e-3df817c25e3a" />
+
+<img width="753" height="453" alt="image" src="https://github.com/user-attachments/assets/fbd4e6c3-2613-4024-9e1b-46d6a3a5eba0" />
 
 
 ### Step 3 – Place Together
@@ -92,7 +93,7 @@ KemDigSl_Setup_Fast-4.bin
 Ne mijenjati nazive  
 Ne pokretati instalaciju bez svih BIN datoteka
 
-<img width="672" height="268" alt="image" src="https://github.com/user-attachments/assets/19cdaba8-ceb6-45bb-bfbb-db3eb3085568" />
+<img width="807" height="207" alt="image" src="https://github.com/user-attachments/assets/bc9f2993-4860-4f7b-901e-3df817c25e3a" />
 
 ---
 
