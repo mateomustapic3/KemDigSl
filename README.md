@@ -88,6 +88,8 @@ KemDigSl_Setup_Quick-3.bin
 KemDigSl_Setup_Quick-4.bin  
 KemDigSl_Setup_Quick-5.bin  
 
+<img width="486" height="417" alt="image" src="https://github.com/user-attachments/assets/fa328249-3c9c-4d88-991c-ce78c3510a83" />
+
 ---
 
 ### 3. Priprema instalacije
@@ -105,6 +107,8 @@ Napomena:
 
 - Ne mijenjati nazive datoteka  
 - Ne pokretati instalaciju bez svih BIN datoteka  
+
+<img width="642" height="263" alt="image" src="https://github.com/user-attachments/assets/42635415-cc47-4c71-bca6-3585ad98c9ad" />
 
 ---
 
