@@ -3,7 +3,7 @@
 # KemDigSl – Kemijanje Digitalnih Slika
 
 Google Drive poveznica za ISO image installera: 
-https://drive.google.com/file/d/1YgMGJ44xal9cIsaVNLkClTRlrhCg1mzf/view?usp=sharing
+https://drive.google.com/file/d/1oJKFBEfaBDwAcUWUaX_gluE-aMb-Rz5k/view?usp=sharing
 
 AI-powered desktop aplikacija za obradu i restauraciju slika  
 WinForms (C#) + Python AI moduli
@@ -69,31 +69,33 @@ Releases → Latest Release → Assets
 
 Preuzmi:
 
-KemDigSl_Setup_Fast-1.bin  
-KemDigSl_Setup_Fast-2.bin  
-KemDigSl_Setup_Fast-3.bin  
-KemDigSl_Setup_Fast-4.bin  
+KemDigSl_Setup_Quick-1.bin  
+KemDigSl_Setup_Quick-2.bin  
+KemDigSl_Setup_Quick-3.bin  
+KemDigSl_Setup_Quick-4.bin
+KemDigSl_Setup_Quick-5.bin  
 
 ---
 
-<img width="753" height="453" alt="image" src="https://github.com/user-attachments/assets/fbd4e6c3-2613-4024-9e1b-46d6a3a5eba0" />
+<img width="487" height="355" alt="image" src="https://github.com/user-attachments/assets/71d9d05d-1c39-44c1-955e-933e9788525d" />
 
 
 ### Step 3 – Place Together
 
 Sve datoteke moraju biti u ISTOM folderu:
 
-KemDigSl_Setup.exe  
-KemDigSl_Setup_Fast-1.bin  
-KemDigSl_Setup_Fast-2.bin  
-KemDigSl_Setup_Fast-3.bin  
-KemDigSl_Setup_Fast-4.bin  
+KemDigSl_Setup_Quick.exe
+KemDigSl_Setup_Quick-1.bin  
+KemDigSl_Setup_Quick-2.bin  
+KemDigSl_Setup_Quick-3.bin  
+KemDigSl_Setup_Quick-4.bin
+KemDigSl_Setup_Quick-5.bin  
 
 
 Ne mijenjati nazive  
 Ne pokretati instalaciju bez svih BIN datoteka
 
-<img width="807" height="207" alt="image" src="https://github.com/user-attachments/assets/bc9f2993-4860-4f7b-901e-3df817c25e3a" />
+<img width="657" height="294" alt="image" src="https://github.com/user-attachments/assets/9640f6ed-f7f7-4e86-a181-30ea048041a8" />
 
 ---
 
