@@ -70,7 +70,7 @@ Instalacija se sastoji od dvije komponente:
 
 Preuzeti:
 
-KemDigSl_Setup.exe
+KemDigSl_Setup_Quick.exe
 
 ---
 
@@ -94,7 +94,7 @@ KemDigSl_Setup_Quick-5.bin
 
 Sve datoteke moraju biti u istom direktoriju:
 
-KemDigSl_Setup.exe  
+KemDigSl_Setup_Quick.exe  
 KemDigSl_Setup_Quick-1.bin  
 KemDigSl_Setup_Quick-2.bin  
 KemDigSl_Setup_Quick-3.bin  
