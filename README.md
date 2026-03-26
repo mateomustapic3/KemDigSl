@@ -1,1 +1,186 @@
-# KemDigSl – Kemijanje Digitalnih Slika Google Drive poveznica za ISO image installera: https://drive.google.com/file/d/1oJKFBEfaBDwAcUWUaX_gluE-aMb-Rz5k/view?usp=sharing AI-powered desktop aplikacija za obradu i restauraciju slika WinForms (C#) + Python AI moduli <img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/86e6221d-3759-4b10-ab99-26c09489e756" /> --- ## AI Moduli KemDigSl integrira vise naprednih modela u jedinstveno sucelje: - Real-ESRGAN → upscale / downscale - GFPGAN → obnova lica - CodeFormer → restauracija lica - DDColor → kolorizacija - AdaIN → style transfer - YOLOv8n → detekcija objekata - AnimeGANv2 → cartoonify - LaMa → uklanjanje objekata / ogrebotina - AutoFix → kombinirana automatska obrada Uz to podrzane su i klasicne transformacije: brightness • contrast • saturation • sharpness • grayscale • sepia --- <img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/96d28301-3df9-45ce-a331-f997fe6f9657" /> ## System Requirements - Windows 10 / 11 (64-bit) - Preporuceno 16 GB RAM - GPU nije obavezan (ali ubrzava AI obradu) - Dovoljno slobodnog prostora za runtime i modele --- ## Installation Instalacija zahtijeva: - Setup EXE iz repozitorija - BIN datoteke iz Releases sekcije --- ### Step 1 – Download Setup Iz glavnog repozitorija preuzmi: KemDigSl_Setup.exe --- ### Step 2 – Download BIN Files Idi na: Releases → Latest Release → Assets Preuzmi: KemDigSl_Setup_Quick-1.bin KemDigSl_Setup_Quick-2.bin KemDigSl_Setup_Quick-3.bin KemDigSl_Setup_Quick-4.bin KemDigSl_Setup_Quick-5.bin --- <img width="487" height="355" alt="image" src="https://github.com/user-attachments/assets/71d9d05d-1c39-44c1-955e-933e9788525d" /> ### Step 3 – Place Together Sve datoteke moraju biti u ISTOM folderu: KemDigSl_Setup_Quick.exe KemDigSl_Setup_Quick-1.bin KemDigSl_Setup_Quick-2.bin KemDigSl_Setup_Quick-3.bin KemDigSl_Setup_Quick-4.bin KemDigSl_Setup_Quick-5.bin Ne mijenjati nazive Ne pokretati instalaciju bez svih BIN datoteka <img width="657" height="294" alt="image" src="https://github.com/user-attachments/assets/9640f6ed-f7f7-4e86-a181-30ea048041a8" /> --- ### Step 4 – Run Installer Pokreni: KemDigSl_Setup.exe (preporuceno kao Administrator) Zadana instalacija: C:\Program Files (x86)\KemDigSl Desktop shortcut se automatski kreira. --- ## First Launch Pokreni aplikaciju preko: Desktop → KemDigSl ili Project.exe iz instalacijskog foldera Ucitaj sliku → odaberi modul → pokreni obradu → spremi rezultat --- ## Performance Notes - CPU obrada moze trajati dulje kod: CodeFormer / DDColor / LaMa - Vrijeme obrade ovisi o rezoluciji slike - Za vece projekte preporucen je jaci hardware --- ## Known Limitations - Rezultat ovisi o kvaliteti ulazne slike - Agresivni parametri mogu stvoriti artefakte - LaMa moze koristiti OpenCV fallback ako neka ovisnost nije dostupna --- ## Uninstall Deinstalacija dostupna kroz: Windows Apps / Programs ili Uninstall u instalacijskom folderu --- ## Tech Stack C# WinForms Embedded Python Runtime Real-ESRGAN GFPGAN CodeFormer DDColor YOLOv8n AnimeGANv2 LaMa --- ## License Academic / Research use
+# KemDigSl – Kemijanje Digitalnih Slika
+
+AI-powered desktop aplikacija za obradu i restauraciju slika.  
+Razvijena u C# (WinForms) uz integraciju Python AI modela za naprednu obradu.
+
+---
+
+## Installer
+
+ISO installer dostupan na:
+
+https://drive.google.com/file/d/1oJKFBEfaBDwAcUWUaX_gluE-aMb-Rz5k/view?usp=sharing
+
+---
+
+## Pregled aplikacije
+
+![Preview](https://github.com/user-attachments/assets/86e6221d-3759-4b10-ab99-26c09489e756)
+
+---
+
+## Funkcionalnosti
+
+Aplikacija objedinjuje više AI modela u jedinstveno sučelje:
+
+- Real-ESRGAN — povećanje / smanjenje rezolucije  
+- GFPGAN — obnova lica  
+- CodeFormer — napredna restauracija lica  
+- DDColor — kolorizacija crno-bijelih slika  
+- AdaIN — style transfer  
+- YOLOv8n — detekcija objekata  
+- AnimeGANv2 — cartoon efekt  
+- LaMa — uklanjanje objekata i oštećenja  
+- AutoFix — automatska optimizacija slike  
+
+Dodatno su dostupne klasične transformacije:
+
+- brightness  
+- contrast  
+- saturation  
+- sharpness  
+- grayscale  
+- sepia  
+
+---
+
+![Preview](https://github.com/user-attachments/assets/96d28301-3df9-45ce-a331-f997fe6f9657)
+
+---
+
+## Sistemski zahtjevi
+
+- Windows 10 ili Windows 11 (64-bit)  
+- Preporučeno: 16 GB RAM  
+- GPU nije obavezan (ali ubrzava obradu)  
+- Dovoljno slobodnog prostora za modele i runtime  
+
+---
+
+## Instalacija
+
+Instalacija se sastoji od dvije komponente:
+
+1. Setup (.exe)  
+2. BIN datoteke (modeli i runtime)  
+
+---
+
+### 1. Preuzimanje setup datoteke
+
+Preuzeti:
+
+KemDigSl_Setup.exe
+
+---
+
+### 2. Preuzimanje BIN datoteka
+
+Putanja:
+
+Releases → Latest Release → Assets  
+
+Potrebno preuzeti:
+
+KemDigSl_Setup_Quick-1.bin  
+KemDigSl_Setup_Quick-2.bin  
+KemDigSl_Setup_Quick-3.bin  
+KemDigSl_Setup_Quick-4.bin  
+KemDigSl_Setup_Quick-5.bin  
+
+---
+
+### 3. Priprema instalacije
+
+Sve datoteke moraju biti u istom direktoriju:
+
+KemDigSl_Setup.exe  
+KemDigSl_Setup_Quick-1.bin  
+KemDigSl_Setup_Quick-2.bin  
+KemDigSl_Setup_Quick-3.bin  
+KemDigSl_Setup_Quick-4.bin  
+KemDigSl_Setup_Quick-5.bin  
+
+Napomena:
+
+- Ne mijenjati nazive datoteka  
+- Ne pokretati instalaciju bez svih BIN datoteka  
+
+---
+
+### 4. Pokretanje instalacije
+
+Pokrenuti:
+
+KemDigSl_Setup.exe  
+
+Preporučeno pokretanje kao administrator.
+
+Zadana instalacijska lokacija:
+
+C:\Program Files (x86)\KemDigSl  
+
+Desktop prečac se automatski kreira.
+
+---
+
+## Pokretanje aplikacije
+
+Aplikacija se pokreće putem:
+
+- desktop prečaca  
+ili  
+- Project.exe iz instalacijskog direktorija  
+
+Osnovni workflow:
+
+učitaj sliku → odaberi modul → pokreni obradu → spremi rezultat  
+
+---
+
+## Performanse
+
+- Obrada može trajati dulje bez GPU-a, posebno za:
+  - CodeFormer  
+  - DDColor  
+  - LaMa  
+
+- Vrijeme obrade ovisi o rezoluciji slike i snazi računala  
+
+---
+
+## Ograničenja
+
+- Kvaliteta rezultata ovisi o ulaznoj slici  
+- Visoke vrijednosti parametara mogu uzrokovati artefakte  
+- LaMa koristi OpenCV fallback ako ovisnosti nisu dostupne  
+
+---
+
+## Deinstalacija
+
+Dostupno putem:
+
+- Windows Apps / Programs  
+ili  
+- Uninstall.exe u instalacijskom direktoriju  
+
+---
+
+## Tehnologije
+
+- C# WinForms  
+- Embedded Python Runtime  
+- Real-ESRGAN  
+- GFPGAN  
+- CodeFormer  
+- DDColor  
+- YOLOv8n  
+- AnimeGANv2  
+- LaMa  
+
+---
+
+## Licenca
+
+Academic / Research use  
