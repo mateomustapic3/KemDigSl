@@ -116,7 +116,7 @@ Napomena:
 
 Pokrenuti:
 
-KemDigSl_Setup.exe  
+KemDigSl_Setup_Quick.exe  
 
 Preporučeno pokretanje kao administrator.
 
