@@ -1,67 +1,53 @@
+🎨 KemDigSl – Kemijanje Digitalnih Slika
 
-
-# KemDigSl – Kemijanje Digitalnih Slika
-
-Google Drive poveznica za ISO image installera: 
-https://drive.google.com/file/d/1oJKFBEfaBDwAcUWUaX_gluE-aMb-Rz5k/view?usp=sharing
-
-AI-powered desktop aplikacija za obradu i restauraciju slika  
+AI-powered desktop aplikacija za obradu i restauraciju slika
 WinForms (C#) + Python AI moduli
 
-<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/86e6221d-3759-4b10-ab99-26c09489e756" />
+📦 Installer (ISO)
 
+👉 https://drive.google.com/file/d/1oJKFBEfaBDwAcUWUaX_gluE-aMb-Rz5k/view?usp=sharing
 
+🖼️ Preview
 
----
+🤖 AI Moduli
 
-## AI Moduli
+KemDigSl integrira više naprednih AI modela u jedinstveno sučelje:
 
-KemDigSl integrira vise naprednih modela u jedinstveno sucelje:
+Real-ESRGAN → upscale / downscale
+GFPGAN → obnova lica
+CodeFormer → restauracija lica
+DDColor → kolorizacija
+AdaIN → style transfer
+YOLOv8n → detekcija objekata
+AnimeGANv2 → cartoonify efekt
+LaMa → uklanjanje objekata / ogrebotina
+AutoFix → automatska optimizacija slike
+🎛️ Klasične transformacije
+brightness
+contrast
+saturation
+sharpness
+grayscale
+sepia
 
-- Real-ESRGAN → upscale / downscale
-- GFPGAN → obnova lica
-- CodeFormer → restauracija lica
-- DDColor → kolorizacija
-- AdaIN → style transfer
-- YOLOv8n → detekcija objekata
-- AnimeGANv2 → cartoonify
-- LaMa → uklanjanje objekata / ogrebotina
-- AutoFix → kombinirana automatska obrada
+💻 System Requirements
+Windows 10 / 11 (64-bit)
+Preporučeno: 16 GB RAM
+GPU nije obavezan (ali ubrzava obradu)
+Dovoljno slobodnog prostora za modele i runtime
+⚙️ Installation
 
-Uz to podrzane su i klasicne transformacije:
+Instalacija se sastoji od 2 dijela:
 
-brightness • contrast • saturation • sharpness • grayscale • sepia
+Setup (.exe)
+BIN datoteke (modeli i runtime)
+🥇 Step 1 – Download Setup
 
----
-<img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/96d28301-3df9-45ce-a331-f997fe6f9657" />
-
-## System Requirements
-
-- Windows 10 / 11 (64-bit)
-- Preporuceno 16 GB RAM
-- GPU nije obavezan (ali ubrzava AI obradu)
-- Dovoljno slobodnog prostora za runtime i modele
-
----
-
-## Installation
-
-Instalacija zahtijeva:
-
-- Setup EXE iz repozitorija
-- BIN datoteke iz Releases sekcije
-
----
-
-### Step 1 – Download Setup
-
-Iz glavnog repozitorija preuzmi:
+Preuzmi iz repozitorija:
 
 KemDigSl_Setup.exe
 
----
-
-### Step 2 – Download BIN Files
+🥈 Step 2 – Download BIN Files
 
 Idi na:
 
@@ -69,109 +55,83 @@ Releases → Latest Release → Assets
 
 Preuzmi:
 
-KemDigSl_Setup_Quick-1.bin  
-KemDigSl_Setup_Quick-2.bin  
-KemDigSl_Setup_Quick-3.bin  
+KemDigSl_Setup_Quick-1.bin
+KemDigSl_Setup_Quick-2.bin
+KemDigSl_Setup_Quick-3.bin
 KemDigSl_Setup_Quick-4.bin
-KemDigSl_Setup_Quick-5.bin  
+KemDigSl_Setup_Quick-5.bin
 
----
-
-<img width="487" height="355" alt="image" src="https://github.com/user-attachments/assets/71d9d05d-1c39-44c1-955e-933e9788525d" />
-
-
-### Step 3 – Place Together
+🥉 Step 3 – Place Files Together
 
 Sve datoteke moraju biti u ISTOM folderu:
 
-KemDigSl_Setup_Quick.exe
-KemDigSl_Setup_Quick-1.bin  
-KemDigSl_Setup_Quick-2.bin  
-KemDigSl_Setup_Quick-3.bin  
+KemDigSl_Setup.exe
+KemDigSl_Setup_Quick-1.bin
+KemDigSl_Setup_Quick-2.bin
+KemDigSl_Setup_Quick-3.bin
 KemDigSl_Setup_Quick-4.bin
-KemDigSl_Setup_Quick-5.bin  
+KemDigSl_Setup_Quick-5.bin
 
+⚠️ Bitno:
 
-Ne mijenjati nazive  
-Ne pokretati instalaciju bez svih BIN datoteka
+Ne mijenjati nazive datoteka
+Ne pokretati instalaciju bez svih .bin datoteka
 
-<img width="657" height="294" alt="image" src="https://github.com/user-attachments/assets/9640f6ed-f7f7-4e86-a181-30ea048041a8" />
-
----
-
-### Step 4 – Run Installer
+🚀 Step 4 – Run Installer
 
 Pokreni:
 
 KemDigSl_Setup.exe
 
-(preporuceno kao Administrator)
+👉 Preporučeno: Run as Administrator
 
-Zadana instalacija:
+Default instalacija:
 
 C:\Program Files (x86)\KemDigSl
 
-Desktop shortcut se automatski kreira.
+✔ Desktop shortcut se automatski kreira
 
----
+▶️ First Launch
 
-## First Launch
+Pokreni aplikaciju:
 
-Pokreni aplikaciju preko:
+preko Desktop shortcuta
+ili direktno: Project.exe
+Workflow:
 
-Desktop → KemDigSl
+Učitaj sliku → odaberi modul → pokreni obradu → spremi rezultat
 
-ili
+⚡ Performance Notes
+CPU obrada može biti sporija kod:
+CodeFormer
+DDColor
+LaMa
+Vrijeme obrade ovisi o:
+rezoluciji slike
+snazi hardwarea
 
-Project.exe iz instalacijskog foldera
+👉 Za ozbiljniji rad preporuča se jači PC / GPU
 
-Ucitaj sliku → odaberi modul → pokreni obradu → spremi rezultat
+⚠️ Known Limitations
+Kvaliteta rezultata ovisi o ulaznoj slici
+Agresivni parametri mogu uzrokovati artefakte
+LaMa može koristiti OpenCV fallback ako ovisnosti nisu dostupne
+🗑️ Uninstall
 
----
-
-## Performance Notes
-
-- CPU obrada moze trajati dulje kod:
-  CodeFormer / DDColor / LaMa
-- Vrijeme obrade ovisi o rezoluciji slike
-- Za vece projekte preporucen je jaci hardware
-
----
-
-## Known Limitations
-
-- Rezultat ovisi o kvaliteti ulazne slike
-- Agresivni parametri mogu stvoriti artefakte
-- LaMa moze koristiti OpenCV fallback ako neka ovisnost nije dostupna
-
----
-
-## Uninstall
-
-Deinstalacija dostupna kroz:
+Deinstalacija dostupna putem:
 
 Windows Apps / Programs
-
-ili
-
-Uninstall u instalacijskom folderu
-
----
-
-## Tech Stack
-
-C# WinForms  
-Embedded Python Runtime  
-Real-ESRGAN  
-GFPGAN  
-CodeFormer  
-DDColor  
-YOLOv8n  
-AnimeGANv2  
+ili Uninstall.exe
+🧠 Tech Stack
+C# WinForms
+Embedded Python Runtime
+Real-ESRGAN
+GFPGAN
+CodeFormer
+DDColor
+YOLOv8n
+AnimeGANv2
 LaMa
-
----
-
-## License
+📜 License
 
 Academic / Research use
