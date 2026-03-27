@@ -53,7 +53,7 @@ Dodatno su dostupne klasične transformacije:
 - Windows 10 ili Windows 11 (64-bit)  
 - Preporučeno: 16 GB RAM  
 - GPU nije obavezan (ali ubrzava obradu)  
-- Dovoljno slobodnog prostora za modele i runtime  
+- Dovoljno slobodnog prostora za modele i runtime (minimalno 7GB) 
 
 ---
 
